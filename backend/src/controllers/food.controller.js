@@ -1,11 +1,9 @@
-// backend/controllers/food.controller.js
 const foodModel = require("../models/food.model");
 const likeModel = require("../models/likes.model");
 const saveModel = require("../models/save.model");
 const { v4: uuid } = require("uuid");
 const { uploadFile } = require("../services/storage.service");
 
-// POST /api/food
 async function createFood(req, res) {
   try {
     console.log("CreateFood body:", req.body);
@@ -57,7 +55,7 @@ async function getFoodItems(req, res) {
   });
 }
 
-// POST /api/food/like
+// post food-like
 async function likeFood(req, res) {
   const { foodId } = req.body;
   const user = req.user;
