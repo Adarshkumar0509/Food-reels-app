@@ -6,7 +6,7 @@ const imagekit = new ImageKit({
   urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT,
 });
 
-// Optional: sanity check on startup
+// it is optional: sanity check on startup
 if (!process.env.IMAGEKIT_PUBLIC_KEY ||
     !process.env.IMAGEKIT_PRIVATE_KEY ||
     !process.env.IMAGEKIT_URL_ENDPOINT) {
