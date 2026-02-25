@@ -1,4 +1,3 @@
-// backend/models/food.model.js
 const mongoose = require("mongoose");
 
 const foodSchema = new mongoose.Schema(
