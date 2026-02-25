@@ -1,4 +1,3 @@
-// backend/services/storage.service.js
 const ImageKit = require("imagekit");
 
 const imagekit = new ImageKit({
