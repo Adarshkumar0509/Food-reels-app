@@ -17,7 +17,7 @@ const Home = () => {
         console.error("Error fetching food items", err);
       });
   }, []);
-
+  
   async function likeVideo(item) {
     const response = await axios.post(
       "http://localhost:3000/api/food/like",
