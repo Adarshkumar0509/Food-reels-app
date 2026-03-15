@@ -11,6 +11,5 @@ function connectDB() {
       process.exit(1); //yeh optional hai agar connection fail ho jata hai toh server ko band kar dena chahiye
     });
 }
-
 module.exports = connectDB;
 
