@@ -11,7 +11,6 @@ const CreateFood = () => {
   const [fileError, setFileError] = useState('');
   const [submitError, setSubmitError] = useState('');
   const fileInputRef = useRef(null);
-
   const navigate = useNavigate();
 
   useEffect(() => {
