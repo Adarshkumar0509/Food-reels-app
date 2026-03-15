@@ -47,6 +47,7 @@ const CreateFood = () => {
       setFileError('Please drop a valid video file.');
       return;
     }
+    
     setFileError('');
     setVideoFile(file);
   };
